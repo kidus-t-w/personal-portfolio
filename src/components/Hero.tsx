@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-gradient-to-r from-gray-800 to-black text-white flex items-center">
+    <section className="bg-gradient-to-r from-gray-800 to-black text-white flex items-center mt-4" id="hero">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Left Content */}
         <div className="md:w-1/2 text-center md:text-left p-6">

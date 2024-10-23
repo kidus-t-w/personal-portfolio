@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className={`w-screenc fixed top-0 left-0 z-[1000] transition-all duration-300 ${scroll ? 'shadow-md bg-gray-900' : 'bg-gradient-to-r from-gray-800 to-black'}`}>
-      <div className="w-screen flex items-center justify-between p-4">
+      <div className="w-screen flex items-center justify-between py-4 px-5 md:px-16">
         {/* Logo */}
         <div className="flex items-center space-x-3 text-2xl font-bold">
           <a href="/">
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
           className={`md:flex md:items-center absolute md:static transition-all duration-300 ease-in-out ${isOpen ? 'top-16 left-0 w-full bg-gray-700' : 'top-[-490px] left-0 w-full'} md:w-auto md:bg-transparent z-[-1] md:z-auto md:pl-0 pl-9`}
         >
           <li className="md:ml-8 text-lg font-semibold md:my-0 my-7">
-            <a href="#home" className="text-white hover:text-blue-600 duration-500">
+            <a href="#hero" className="text-white hover:text-blue-600 duration-500">
               HOME
             </a>
           </li>
