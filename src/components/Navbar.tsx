@@ -23,8 +23,8 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <header className={`w-full fixed top-0 left-0 z-[1000] transition-all duration-300 ${scroll ? 'shadow-md bg-gray-900' : 'bg-gradient-to-r from-gray-800 to-black'}`}>
-      <div className="container mx-auto flex items-center justify-between p-4">
+    <nav className={`w-screenc fixed top-0 left-0 z-[1000] transition-all duration-300 ${scroll ? 'shadow-md bg-gray-900' : 'bg-gradient-to-r from-gray-800 to-black'}`}>
+      <div className="w-screen flex items-center justify-between p-4">
         {/* Logo */}
         <div className="flex items-center space-x-3 text-2xl font-bold">
           <a href="/">
@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Hamburger Menu Icon for Mobile */}
-        <div className="md:hidden mr-8">
+        <div className="md:hidden mr-4">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             <svg
               className="w-6 h-6"
@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
           </li>
         </ul>
       </div>
-    </header>
+    </nav>
   );
 };
 

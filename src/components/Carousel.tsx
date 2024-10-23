@@ -7,13 +7,14 @@ const Carousel: React.FC = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed:5000,
-    slidesToShow: 5,
+    speed: 5000,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
     cssEase: 'linear',
     pauseOnHover: false,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -30,7 +31,7 @@ const Carousel: React.FC = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
     ],
