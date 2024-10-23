@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Hamburger Menu Icon for Mobile */}
-        <div className="md:hidden">
+        <div className="md:hidden mr-8">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             <svg
               className="w-6 h-6"
