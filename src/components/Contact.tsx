@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
 
                 <div className="flex space-x-4">
                   <a
-                    href="#https://github.com/kidus-t-w"
+                    href="https://github.com/kidus-t-w"
                     target="_blank"
                     className="text-white text-2xl"
                   >
@@ -68,7 +68,7 @@ const Contact: React.FC = () => {
                     <FaUpwork />
                   </a>
                   <a
-                    href="www.linkedin.com/in/kidus-tilahun-wube"
+                    href="https://www.linkedin.com/in/kidus-tilahun-wube"
                     className="text-blue-500 text-2xl"
                     target="_blank"
                   >
